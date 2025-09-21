@@ -1,0 +1,330 @@
+/* ================= LOGO ================= */
+/* .logo-design:hover {
+    transform: translate(-1px);
+} */
+
+header .row {
+    align-items: center !important;
+}
+
+/* ================= BUTTONS ================= */
+.whatsappbtn,
+.call,
+.demobtn,
+.downloadbtn,
+.download-btn,
+.tech-design button {
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.3s ease, box-shadow 0.2s ease;
+}
+
+/* WhatsApp Button */
+.whatsappbtn {
+    border: 1px solid #27AE60;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #27AE60;
+    background: #e9ecef;
+}
+
+.whatsappbtn i {
+    font-size: 18px;
+    color: #27AE60;
+}
+
+.whatsappbtn:hover {
+    background-color: #27AE60;
+    color: white;
+    transform: translate(-1px);
+}
+
+.whatsappbtn:hover i {
+    color: white;
+}
+
+/* Call Button */
+.call {
+    background: linear-gradient(to right, #94d1e0, #2699FB);
+    padding: 6px 12px;
+    color: white;
+    border: none;
+}
+
+.call i {
+    font-size: 18px;
+}
+
+.call:hover {
+    opacity: 0.9;
+    transform: translate(-1px);
+    color: #000;
+}
+
+/* Demo & Download Buttons */
+.demobtn,
+.downloadbtn {
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    color: white;
+    padding: 14px 26px;
+    border: none;
+}
+
+.demobtn:hover,
+.downloadbtn:hover {
+    opacity: 0.9;
+}
+
+.downloadbtn a {
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.downloadbtn a i {
+    font-size: 16px;
+}
+
+/* Generic Download Button */
+.download-btn {
+    padding: 12px 28px;
+    background: linear-gradient(to right, #94d1e0, #2699FB);
+    color: #fff;
+    border-radius: 6px;
+}
+
+.download-btn i {
+    font-size: 18px;
+}
+
+.download-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+    color: #000;
+}
+
+/* ================= BANNER ================= */
+.bannercontent {
+    max-width: 100%;
+    padding: 0 15px;
+    overflow-x: hidden;
+}
+
+.bannercontent h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.bannercontent h1 span {
+    color: #2699FB;
+}
+
+.bannercontent h4 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 15px 0 10px 0;
+}
+
+/* Banner Form */
+.bannerform {
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.bannerform h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bannerform button {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 0;
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    border: none;
+    color: white;
+}
+
+/* ================= FEATURES ================= */
+.features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features-list li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 1.6;
+    word-break: break-word;
+}
+
+.features-list li i {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    color: #2699FB;
+    font-size: 16px;
+}
+
+/* ================= COUNTER & HIGHLIGHT ================= */
+.countersection h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2699FB;
+}
+
+.higlight-items h4 {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.higlight-items p {
+    font-size: 12px;
+}
+
+.higlight-items i {
+    font-size: 40px;
+    padding: 10px;
+    color: #2699FB;
+    background: #E6EEF1;
+    border-radius: 10px;
+}
+
+/* ================= TABS ================= */
+.nav-pills .nav-link {
+    background-color: #E6EEF1;
+    border-radius: 6px;
+}
+
+.nav-pills .nav-link:hover {
+    opacity: 0.9;
+    color: #000;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: #E6EEF1;
+    color: #000;
+}
+
+/* ================= TECH DESIGN ================= */
+.tech-design {
+    background: #E6EEF1;
+}
+
+.tech-design ul {
+    background: #E6EEF1;
+}
+
+.tech-design button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+    color: #000;
+}
+
+/* ================= GALLERY ================= */
+.gallery,
+.gallerystudy {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.gallerystudy {
+    gap: 20px;
+    padding: 10px;
+}
+
+.item img,
+.itemstudy img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.item img:hover,
+.itemstudy img:hover {
+    transform: scale(1.01);
+}
+
+.gallerystudy figure figcaption {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* ================= CAROUSEL ================= */
+.carousel-inner img {
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: brightness(0) saturate(100%);
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: rgba(0, 0, 0, 0.621);
+    width: 30px;
+    height: 3px;
+    border-radius: 30%;
+    opacity: 0.7;
+}
+
+.carousel-indicators .active {
+    background-color: black;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: -30px;
+}
+
+/* ================= GOOGLE REVIEWS ================= */
+#googlereviews1 {
+    overflow: visible;
+}
+
+/* ================= ACCORDION ================= */
+.accordion .accordion-button.collapsed,
+.accordion .accordion-button:not(.collapsed) {
+    background-color: #E6EEF1 !important;
+    color: #000 !important;
+}
+
+.accordion-button::after {
+    transition: transform 0.2s ease-in-out;
+}
+
+.accordion-item {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* ================= CERTIFICATE & DIRECT ================= */
+.certificate {
+    color: white;
+}
+
+.certificate span {
+    color: orange;
+}
+
+.direct p {
+    text-align: justify;
+    font-size: 18px;
+    align-items: center;
+}

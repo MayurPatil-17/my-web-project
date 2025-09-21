@@ -1,0 +1,63 @@
+/* ================= RESPONSIVE STYLES ================= */
+
+/* Mobile & Tablet: 200px – 992px */
+@media only screen and (min-width: 200px) and (max-width: 992px) {
+    /* Fixed bottom buttons */
+    .btn-outer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        background: #E6EEF1;
+        justify-content: center !important;
+        gap: 5px;
+        margin-top: 5px;
+        z-index: 999;
+    }
+
+    /* Banner heading smaller font */
+    .bannercontent h1 {
+        font-size: 32px;
+    }
+
+    /* Gallery / item padding for small screens */
+    .item {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .carousel-item {
+        padding-left: 20px;
+        padding-right: 20px;    
+    }
+
+    /* Zigzag divider for small screens */
+    .zigzag-divider {
+        height: 8px;
+        background-size: 16px 8px;
+    }
+}
+
+/* Desktop: 993px and up */
+@media only screen and (min-width: 993px) {
+    .btn-outer {
+        position: static;
+        background: transparent;
+        justify-content: flex-end;
+        padding: 0;
+        z-index: auto;
+    }
+}
+
+/* Extra large screens: 1400px and up */
+@media (min-width: 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1170px;
+    }
+}
